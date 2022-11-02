@@ -1,0 +1,428 @@
+:root {
+  --accent-color: #2196f3;
+  --accent-color-two: #212121;
+  --secondary-color: #2f303a;
+  --tertiary-color: #f5f4fa;
+  --main-color: #e5e5e5;
+  --title-color: #ffffff;
+  --hover-color: #188ce8;
+  --phone-color: #757575;
+}
+
+body {
+  background-color: var(--title-color);
+  font-family: "Roboto", "Raleway";
+}
+/* Header CSS */
+
+.header-style {
+  list-style: none;
+}
+
+.info-style {
+  list-style: none;
+}
+
+.studio {
+  font-family: inherit;
+  position: absolute;
+  width: 42px;
+  height: 16px;
+  left: 457px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.studio:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--hover-color);
+}
+
+.portfolio {
+  font-family: inherit;
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-two);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.portfolio:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+}
+
+.contacts {
+  position: absolute;
+  width: 59px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  font-style: normal;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-two);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contacts:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--acent-color-two);
+}
+
+.web-studio {
+  font-family: Raleway;
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  text-decoration: none;
+}
+
+.web-studio:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+}
+
+.e-mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.e-mail:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+}
+
+.phone-number {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  font-family: inherit;
+  color: var(--phone-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.phone-number:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+}
+
+/* Main Section Styling */
+.service-section {
+  background-color: var(--secondary-color);
+  width: 1600px;
+  height: 600px;
+}
+
+.service-section h1 {
+  color: var(--title-color);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.style-banner {
+  position: absolute;
+  left: 452px;
+  top: 280px;
+  width: 696px;
+  letter-spacing: 0.06em;
+}
+
+.button-style {
+  background-color: var(--accent-color);
+  color: var(--title-color);
+  border-radius: 4px;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  margin-top: 30px;
+  padding: 10 19 10 20px;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  background-color: var(--hover-color);
+}
+
+/* Skills Section Styling */
+
+.skills-section {
+  background-color: var(--title-color);
+}
+.skills-styling {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-styling h3 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 94px;
+  height: 15.05px;
+  color: var(--accent-color-two);
+}
+
+.skills-styling h3 p {
+  margin-right: 30px;
+  width: 270px;
+  height: 70.54px;
+}
+
+.skills-styling p {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--phone-color);
+}
+
+/* Business Section Styling*/
+
+.business-container {
+  margin-top: 100px;
+  background-color: var(--title-color);
+}
+
+.business-details {
+  margin: auto;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: inherit;
+  color: var(--accent-color-two);
+}
+
+.business-list-style {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.business-list-style li {
+  margin: auto;
+}
+
+/* Our Team Section Styling */
+
+.team-section {
+  background-color: var(--tertiary-color);
+  font-size: 0;
+}
+
+.team-container {
+  background-color: var(--tertiary-color);
+  height: 655px;
+}
+
+.team-container p {
+  margin-bottom: 94px;
+}
+
+.team-section h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-two);
+}
+
+.team-section h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-section p {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--phone-color);
+  text-align: center;
+}
+.team-section li {
+  margin-right: 30px;
+  margin: auto;
+}
+
+.team-style {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.team {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.product-designer-style {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--title-color);
+}
+
+.front-end-developer-style {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--title-color);
+}
+
+.marketing-style {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--title-color);
+}
+
+.ui-designer-style {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--title-color);
+}
+
+/* Footer Section CSS*/
+
+.footer-section-styling {
+  background-color: var(--secondary-color);
+  height: 252px;
+}
+
+.business-details-style {
+  list-style: none;
+}
+
+/* Come back to this */
+.business-details-style li {
+  padding-top: 30px;
+  margin-left: 215px;
+}
+
+.footer-section-styling ul {
+  margin-top: 0px;
+}
+
+.footer-studio {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.address-style {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--title-color);
+}
+
+.address-style:hover {
+  color: var(--phone-color);
+}
+
+.email-number-two {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: inherit;
+  color: var(--phone-color);
+  text-decoration: none;
+}
+
+.email-number-two:hover {
+  color: rgba(var(--main-color), 0.2);
+}
+
+.phone-number-two {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--phone-color);
+  text-decoration: none;
+}
+
+.phone-number-two:hover {
+    color:rgba(var(--main-color), 0.2)
+}
