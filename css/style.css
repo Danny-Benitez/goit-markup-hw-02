@@ -226,85 +226,8 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.button-list {
-  margin-left: 0px;
-}
-
-.footer-container {
-  width: 1600px;
-  height: 252px;
-  background-color: var(--background-color-dark);
-}
-
-.footer-list-style {
-  list-style: none;
-}
-
-.footer-list-style {
-  padding-top: 60px;
-  margin-left: 215px;
-}
-
-.web-studio-footer {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  text-decoration: none;
-  color: var(--accent-color);
-  padding-bottom: 5px;
-}
-
-.address-style {
-  width: 231px;
-  height: 21px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--title-secondary-color);
-  text-decoration: none;
-  display: block;
-  padding-top: 5px;
-  padding-bottom: 15px;
-  margin-bottom: 10px;
-}
-
-.address-style:hover {
-  color: var(--hover-color);
-}
-
-.email-number-two {
-  width: 231px;
-  height: 21px;
-  font-style: normal;
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-  margin-top: 146px;
-  text-decoration: none;
-}
-
-.email-number-two:hover {
-  color: var(--hover-color);
-}
-
-.phone-number-two {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-  padding-top: 5px;
-  text-decoration: none;
-}
-
-.phone-number-two:hover {
-  color: var(--hover-color);
+.projects-list >li {
+  box-sizing: border-box;
+  background-color: var(--title-secondary-color);
+  border: 1px solid var(--border-color);
 }
