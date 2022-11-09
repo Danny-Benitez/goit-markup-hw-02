@@ -148,7 +148,7 @@ ul {
 
 .footer-section {
   background-color: var(--background-color-dark);
-  height: 252px;
+  
 }
 
 .footer-address {
@@ -156,8 +156,6 @@ ul {
 }
 
 .footer-address-link {
-  /* font-family: inherit; */
-  /* font-style: normal; */
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
